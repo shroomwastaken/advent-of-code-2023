@@ -26,7 +26,6 @@ def remove_elem(arr, rem):
     return [i for i in arr if i[0] != rem]
 
 
-print(info)
 boxes = [[] for _ in range(256)]
 for elem in info:
     box_label = hash(elem[0])
